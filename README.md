@@ -9,3 +9,4 @@ git status # Check status
 git add <file1> <file2> #add multiple files.
 git commit -m "message describing the changes"
 git push origin master
+git log #to see commits
