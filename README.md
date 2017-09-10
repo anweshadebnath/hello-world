@@ -21,4 +21,6 @@ git config user.email
 git config --global alias.st status
 git config --global alias.br branch
 git st
+#update author name in local repo
+git config user.name "Anwesha Debnath"
 ```
