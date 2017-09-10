@@ -14,7 +14,7 @@ git log #to see commits
 ```
 #### Setting a different email to commit from local repo will override global email.
 ```
-git config user.email "anweshadebnath@gmail.com"
+git config user.email "engganwesha@gmail.com"
 git config --list
 git config user
 git config user.email
