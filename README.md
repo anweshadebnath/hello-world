@@ -23,4 +23,6 @@ git config --global alias.br branch
 git st
 #update author name in local repo
 git config user.name "Anwesha Debnath"
+
+git config --global alias.lg "log --oneline --decorate --all --graph"
 ```
