@@ -1,0 +1,45 @@
+#container {
+    background-color: indianred;
+}
+
+
+#header {
+    background-color: green;
+    text-align: center;
+    padding: 1em;
+    /*clear: left;*/
+}
+
+#left-side-bar {
+    /*background-color: orange;*/
+    text-align: center;
+    float: left;
+    width: 20%;
+}
+
+#right-side-bar {
+    /*background-color: orange;*/
+    text-align: center;
+    width: 20%;
+    float: right;
+}
+
+#center {
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#footer {
+    background-color: green;
+    text-align: center;
+    padding: 1em;
+    /*clear: left;*/
+}
+
+button {
+    margin-top: 33%;
+    background-color: snow;
+    padding: 1em;
+}

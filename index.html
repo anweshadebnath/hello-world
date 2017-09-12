@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <body>
-<script>
-function light(sw) {
-    var pic;
-    if (sw == 0) {
-        pic = "pic_bulboff.gif"
-    } else {
-        pic = "pic_bulbon.gif"
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script>
+    function light(sw) {
+        var pic;
+        if (sw == 0) {
+            pic = "pic_bulboff.gif"
+        } else {
+            pic = "pic_bulbon.gif"
+        }
+        document.getElementById('myImage').src = pic;
     }
-    document.getElementById('myImage').src = pic;
-}
-</script>
-
-<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
-
-<p>
-<button type="button" onclick="light(1)">Light On</button>
-<button type="button" onclick="light(0)">Light Off</button>
-</p>
-
+    </script>
+    <div id="container">
+        <!-- header -->
+        <div id="header">header </div>
+        <!-- left side-bar -->
+        <nav id="left-side-bar">
+            <button type="button" onclick="light(1)">Light On</button>
+        </nav>
+        <!-- right side-bar -->
+        <div id="right-side-bar">
+            <button type="button" onclick="light(0)">Light Off</button>
+        </div>
+        <!-- center -->
+        <div id="center">
+            <img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+        </div>
+        <!-- footer -->
+        <div id="footer">footer
+        </div>
+    </div>
 </body>
-</html>
 
+</html>
