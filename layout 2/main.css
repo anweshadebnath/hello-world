@@ -1,0 +1,37 @@
+.container {}
+
+.upper {
+    height: 300px;
+}
+
+.lower {
+    height: 400px;
+}
+
+.u-box {
+    float: left;
+    width: 49%;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.upper img {
+    height: 300px;
+    width: auto;
+}
+
+
+.image-box {
+    float: left;
+    width: 35%;
+    padding-left: 5%; 
+    padding-right: 5%; 
+}
+
+.image-box img {
+    width: 100%;
+}
+
+.text{
+	padding: 1%;
+}
